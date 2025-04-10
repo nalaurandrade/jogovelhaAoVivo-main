@@ -9,7 +9,7 @@ export default function Pagina1({ navigation }) {
       {/* Botão 1 */}
       <TouchableOpacity 
         style={styles.button} 
-        onPress={() => navigation.navigate('HumanoVsHumano')}
+        onPress={() => navigation.navigate('Pagina3')}
       >
         <Text style={styles.buttonText}>Humano x Humano</Text>
       </TouchableOpacity>
@@ -17,7 +17,7 @@ export default function Pagina1({ navigation }) {
       {/* Botão 2 */}
       <TouchableOpacity 
         style={styles.button} 
-        onPress={() => navigation.navigate('HumanoVsMaquina')}
+        onPress={() => navigation.navigate('Pagina2')}
       >
         <Text style={styles.buttonText}>Humano x Máquina</Text>
       </TouchableOpacity>
